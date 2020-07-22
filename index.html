@@ -1,0 +1,71 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Pomodoro Clock</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+        <script src="js/vendor/modernizr-3.5.0.min.js" async></script>
+        <script src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous" async></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js" async></script>
+        <script src="js/main.js" async></script>
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade"><strong>outdated</strong>. Please <a href="https://browsehappy.com/"></a> .</p>
+        <![endif]-->
+
+        <span id="title">POMODORO CLOCK</span>
+
+        <div class="Main-container">
+            <section id="work_container" class="flex-item">
+                <div class="timer">
+                    <div id="work">
+                        <span id="work_minutes">25</span>
+                        <span>:</span>
+                        <span id="work_seconds">00</span>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button id="minutes_work_up">&#x2b;</button>
+                    <button id="minutes_work_down">&minus;</button>
+                </div>
+            </section>
+
+            <section id="break_container" class="flex-item">
+                <div class="timer">
+                    <div id="break">
+                        <span id="break_minutes">05</span>
+                        <span>:</span>
+                        <span id="break_seconds">00</span>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button id="break_work_up">&#x2b;</button>
+                    <button id="break_work_down">&minus;</button>
+                </div>
+            </section>
+        </div>
+
+        <section id="start_reset">
+            <div id="start">
+                <button id="start_button">START</button>
+            </div>
+            <div id="reset">
+                <button id="reset_button">RESET</button>
+            </div>
+        </section>
+
+
+
+
+
+
+    </body>
+</html>
